@@ -56,3 +56,4 @@ const Products = () => {
 };
 
 export default Products;
+export { ALL_PRODUCTS_QUERY };

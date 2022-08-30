@@ -1,10 +1,12 @@
 /* eslint-disable arrow-body-style */
 import Link from 'next/link';
+import NavStyles from './styles/NavStyles';
+
 
 const Nav = () => {
 
   return (
-    <nav>
+    <NavStyles>
       <Link href='/products'>
         products
       </Link>
@@ -20,7 +22,7 @@ const Nav = () => {
       <Link href='/cart'>
         cart
       </Link>
-    </nav>
+    </NavStyles>
   );
 };
 

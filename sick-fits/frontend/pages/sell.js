@@ -1,8 +1,8 @@
-import Page from '../components/Page.js';
+import CreateProduct from '../components/CreateProduct.js';
 
 const SellPage = () => (
   <div>
-    <h1>Sell</h1>
+    <CreateProduct />
   </div>
 );
 
