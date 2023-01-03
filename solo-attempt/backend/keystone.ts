@@ -25,5 +25,8 @@ export default withAuth(
     },
     lists,
     session,
+    server: {
+      port: 7777,
+    }
   })
 );
